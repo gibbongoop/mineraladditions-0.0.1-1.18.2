@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gibbongoop.mineraladditions.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mineraladditions.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
