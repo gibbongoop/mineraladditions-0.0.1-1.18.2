@@ -1,6 +1,7 @@
 package gibbongoop.mineraladditions;
 
 import com.mojang.logging.LogUtils;
+import gibbongoop.mineraladditions.block.ModBlocks;
 import gibbongoop.mineraladditions.items.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -33,6 +34,7 @@ public class mineraladditions {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

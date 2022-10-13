@@ -17,6 +17,18 @@ public class ModItems {
     public static final RegistryObject<Item> CUT_TOPAZ = ITEMS.register("cut_topaz",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MINERAL_TAB)));
 
+    public static final RegistryObject<Item> RAW_GARNET = ITEMS.register("raw_garnet",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MINERAL_TAB)));
+
+    public static final RegistryObject<Item> CUT_GARNET = ITEMS.register("cut_garnet",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MINERAL_TAB)));
+
+    public static final RegistryObject<Item> RAW_AQUAMARINE = ITEMS.register("raw_aquamarine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MINERAL_TAB)));
+
+    public static final RegistryObject<Item> CUT_AQUAMARINE = ITEMS.register("cut_aquamarine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MINERAL_TAB)));
+
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);
 

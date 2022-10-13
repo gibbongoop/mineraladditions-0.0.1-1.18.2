@@ -1,6 +1,14 @@
 {
   "item.mineraladditions.raw_topaz": "Raw Topaz",
   "item.mineraladditions.cut_topaz": "Cut Topaz",
+  "item.mineraladditions.raw_garnet": "Raw Garnet",
+  "item.mineraladditions.cut_garnet": "Cut Garnet",
+  "item.mineraladditions.raw_aquamarine": "Raw Aquamarine",
+  "item.mineraladditions.cut_aquamarine": "Cut Aquamarine",
+
+  "block.mineraladditions.topaz_ore": "Topaz Deposit",
+  "block.mineraladditions.garnet_ore": "Garnet Deposit",
+  "block.mineraladditions.aquamarine_ore": "Aquamarine Deposit",
 
 
   "itemGroup.mineraltab": "Mineral Additions"
